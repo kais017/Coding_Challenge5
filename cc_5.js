@@ -102,7 +102,16 @@ console.log("Price: $", price, "Discount:", discount);
 console.log("Discounted Price: $", discountedPrice);
 // Logging the intial price and discount rate, then the calculated discounted price
 
+// Task 10: Arrow Function
+const calculatePoints = purchaseAmount => purchaseAmount / 10;
+// created an arrow function which calculates points earned based on the purchase amount
 
+let points = Math.floor(calculatePoints(453));
+// using math floor to round the points down
+
+console.log("Purchase Amount: $", 453);
+console.log(`Earned points: ${points}`);
+// logging purchase amount and the calculated points earned
 
 
 
