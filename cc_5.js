@@ -40,7 +40,7 @@ console.log("Cart Items:", cartItems);
 // logging the final items, which should be the same as our initial array
 
 //Task 4: Map Method
-let prices = [250, 300, 350]
+let prices = [250, 300, 350];
 // array of product prices
 let discountedPrices = prices.map(price => price * 0.9);
 // applying a 10% discount to the each price the array
@@ -48,6 +48,15 @@ let discountedPrices = prices.map(price => price * 0.9);
 console.log("Original Prices:", prices);
 console.log("Discounted Prices:", discountedPrices);
 // Logging Task 4
+
+//Task 5: Filter Method
+let inventory = [4, 0, 5, 0, 8];
+// declare an array of product quantities
+let = realInventory = inventory.filter(inventory => inventory > 0);
+// using the filter method to remove products with zero stock
+console.log("Inventory:", realInventory);
+// logging task 5
+
 
 
 
