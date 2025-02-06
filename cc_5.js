@@ -55,7 +55,19 @@ let inventory = [4, 0, 5, 0, 8];
 let = realInventory = inventory.filter(inventory => inventory > 0);
 // using the filter method to remove products with zero stock
 console.log("Inventory:", realInventory);
-// logging task 5
+// logging task 5 to show output of all products greater than zero
+
+// Task 6: Reduce Method
+let sales = [100, 300, 400, 560];
+// declaring an array with sales numbers
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+// calculating the total value of sales in the array using reduce
+console.log("Sales:", sales);
+console.log("Total Revenue:", totalRevenue);
+// logging sales array and total revenue
+
+
+
 
 
 
