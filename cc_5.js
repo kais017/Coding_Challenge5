@@ -25,6 +25,22 @@ console.log("Order Information:", order);
 console.log("display order:", order.displayOrder());
 // logging task 2
 
+// Task 3: Array Manipulation
+
+let cartItems = ["lettuce", "tomato", "onion"];
+//  creating an array with items in my cart
+cartItems.push("ground beef");
+// adding new product to cart
+cartItems.pop();
+//removing the last item
+cartItems.unshift("mustard");
+// add an item to beginning of array
+cartItems.shift();
+// removing the first item
+console.log("Cart Items:", cartItems);
+// logging the final items, which should be the same as our initial array
+
+
 
 
 
