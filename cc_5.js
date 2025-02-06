@@ -76,6 +76,19 @@ console.log("Customers:", customers);
 console.log("Located:", found);
 // Logging the array of customers and logging the find function
 
+// Task 8: Function Declaration
+
+function calculateTax(amount, taxRate)
+{ return amount * taxRate};
+// made a function calculateTax to find tax amount
+let amount = 236 //Price
+let taxRate = 0.05 // 5% tax rate
+let taxAmount = calculateTax(amount, taxRate);
+
+console.log("Price:", amount, "Tax Rate:", taxRate);
+console.log(`Tax Amount: $${taxAmount}`);
+// Logging the initial amount and tax rate, then the calculated tax amount
+
 
 
 
