@@ -26,7 +26,6 @@ console.log("display order:", order.displayOrder());
 // logging task 2
 
 // Task 3: Array Manipulation
-
 let cartItems = ["lettuce", "tomato", "onion"];
 //  creating an array with items in my cart
 cartItems.push("ground beef");
@@ -39,6 +38,17 @@ cartItems.shift();
 // removing the first item
 console.log("Cart Items:", cartItems);
 // logging the final items, which should be the same as our initial array
+
+//Task 4: Map Method
+let prices = [250, 300, 350]
+// array of product prices
+let discountedPrices = prices.map(price => price * 0.9);
+// applying a 10% discount to the each price the array
+
+console.log("Original Prices:", prices);
+console.log("Discounted Prices:", discountedPrices);
+// Logging Task 4
+
 
 
 
