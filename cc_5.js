@@ -66,7 +66,15 @@ console.log("Sales:", sales);
 console.log("Total Revenue:", totalRevenue);
 // logging sales array and total revenue
 
+// Task 7: find() Method
+const customers = ["Ally", "Bobbert","Dave", "Michelle"]
+// declaring an array of customers
+const found = customers.find( cust => cust === "Dave");
+// using the find() method to locate the customer named Dave
 
+console.log("Customers:", customers);
+console.log("Located:", found);
+// Logging the array of customers and logging the find function
 
 
 
