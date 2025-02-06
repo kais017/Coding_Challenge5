@@ -85,9 +85,25 @@ let amount = 236 //Price
 let taxRate = 0.05 // 5% tax rate
 let taxAmount = calculateTax(amount, taxRate);
 
-console.log("Price:", amount, "Tax Rate:", taxRate);
+console.log("Price: $", amount, "Tax Rate:", taxRate);
 console.log(`Tax Amount: $${taxAmount}`);
 // Logging the initial amount and tax rate, then the calculated tax amount
+
+// Task 9: Function Expression
+function applyDiscount(price, discount)
+{return price - (price * discount) };
+// creating a function that calculated the discounted price
+let price = 45 // price of $45
+let discount = 0.2 // discount is 20% off
+let discountedPrice = applyDiscount(price,discount);
+// apply function 
+
+console.log("Price: $", price, "Discount:", discount);
+console.log("Discounted Price: $", discountedPrice);
+// Logging the intial price and discount rate, then the calculated discounted price
+
+
+
 
 
 
